@@ -6,8 +6,7 @@ Console.Write("Введите второе число и нажмите ENTER: "
 int num2 = int.Parse(Console.ReadLine());
 Console.Write("Введите третье число и нажмите ENTER: ");
 int num3 = int.Parse(Console.ReadLine());
-int maxNum = 0;
-if (num1 > maxNum) maxNum = num1;
+int maxNum = num1;
 if (num2 > maxNum) maxNum = num2;
 if (num3 > maxNum) maxNum = num3;
-Console.Write("Максимальное значение имеет число " + maxNum);
+Console.Write("Максимальное значение имеет число " + maxNum );
